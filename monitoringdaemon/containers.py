@@ -37,5 +37,6 @@ class Container(containers.DeclarativeContainer):
         dispatcher.Dispatcher,
         monitors=providers.List(
            example_monitor,
+           httpbin_monitor,
         ),
     )
